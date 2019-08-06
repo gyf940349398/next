@@ -93,11 +93,11 @@ index_with_subtitle: false
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
   home: / || home
-  #about: /about/ || user
+  # about: /about/ || user
   tags: /tags/ || tags
   categories: /categories/ || th
   # archives: /archives/ || archive
-  #schedule: /schedule/ || calendar
+  # schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
 
@@ -114,7 +114,7 @@ menu_icons:
 # scheme: Muse
 scheme: Mist
 # scheme: Pisces
-#scheme: Gemini
+# scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -369,9 +369,9 @@ disqus:
 
 # changyan
 changyan:
-  enable: false
-  appid:
-  appkey:
+  enable: true
+  appid: cytjzjYB7
+  appkey: 1b80da1050b5fa7038c60862e2fd7bf3
 
 
 # Valine.
@@ -395,7 +395,7 @@ valine:
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-livere_uid: MTAyMC8zNjkzMC8xMzQ2Ng==
+livere_uid: # MTAyMC8zNjkzMC8xMzQ2Ng==
 
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
@@ -553,7 +553,7 @@ busuanzi_count:
   # custom uv span for the whole site
   site_uv: true
   site_uv_header: <i class="fa fa-user"></i>
-  site_uv_footer:
+  site_uv_footer: 
   # custom pv span for the whole site
   site_pv: true
   site_pv_header: <i class="fa fa-eye"></i>
